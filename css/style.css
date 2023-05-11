@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++
+NAV-NAV-NAV-NAV-NAV-NAV-NAV-NAV-NAV-NAV-NAV-NA
+++++++++++++++++++++++++++++++++++++++++++++*/
+
+nav{
+    background-color: #F8F9FA;
+    
+    
+}
+.riga_nav{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+.ricerca{  /* barra di ricerca */
+    width: 100%;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.gap_5{        /* distanzio gli items fra di loro*/
+    display: flex;
+    justify-content: flex-end;
+    gap: 15%;
+}
