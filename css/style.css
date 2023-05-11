@@ -22,7 +22,6 @@ header{
 }
 .riga_header{
     background-color: #FFFFFF;
-    padding: 10px;
     width: 100%;
     height: 80px;
 }
@@ -74,7 +73,6 @@ SIDEBAR-SIDEBAR-SIDEBAR-SIDEBAR-SIDEBAR-SIDEBAR
 
 .text_white{
     color: white;
-    margin-left: 7px;
 }
 
 .top_sidebar, .bottom_sidebar{
@@ -92,6 +90,41 @@ CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-CONTENT
 .content{
     background-color: rgb(85, 61, 32);
     width: 100%;
-    height: calc(100vh - 100px); ;
+    height: calc(100vh - 100px); 
     overflow-y: auto;
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++
+BARRA-BARRA-BARRA-BARRA-BARRA-BARRA-BARRA-BARRA-
+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.barra{
+    background-color: #1B72E8;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.font_title{
+    font-size: 20px;
+}
+
+.font_subtitle{
+    font-size: 11px;
+    
+}
+
+.radius{
+    background-color: rgba(46, 42, 42, 0.433);
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.text_strong{
+    font-weight: 800;
 }
