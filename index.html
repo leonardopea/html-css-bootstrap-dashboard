@@ -21,120 +21,69 @@
 
 </head>
 <body>
-    <header>
+
+
+    <!-- HEADER -->
+    <header class="d-flex align-items-center">
         <div class="row riga_header">
-            <div class="col-2">
-                <img src="./img/logo.svg" alt="Boolean">
+            <div class="col-2 d-flex justify-content-start align-items-center">
+                <img class="d-none d-md-block logo_grande" src="./img/logo.svg" alt="Boolean">
+                <img class="d-md-none logo_piccolo" src="./img/mobile-logo.png" alt="Boolean-mobile">
             </div>
-            <div class="col-8">
+            <div class="col-8 d-flex justify-content-center align-items-center">
                 <input class="ricerca" type="search" placeholder=" &#128269; Prova a cercare: Lezioni di Laravel">
             </div>
-            <div class="col-2">
-                <div class="nav_icons">
-                    <i class="fa-solid fa-list-ul" style="color: #c0c0c0;"></i>
-                    <i class="fa-solid fa-circle-question" style="color: #c0c0c0;"></i>
-                    <i class="fa-solid fa-ellipsis-vertical" style="color: #c0c0c0;"></i>
-                    <i class="fa-solid fa-bell" style="color: #FF8F01;"></i>
-                </div>
+            <div class="col-2 d-flex justify-content-end align-items-center icons_header">
+                <i class="fa-solid fa-list-ul d-none d-md-block" style="color: #c0c0c0;"></i>
+                <i class="fa-solid fa-circle-question d-none d-md-block" style="color: #c0c0c0;"></i>
+                <i class="fa-solid fa-ellipsis-vertical d-none d-md-block" style="color: #c0c0c0;"></i>
+                <i class="fa-solid fa-bell" style="color: #FF8F01;"></i> 
             </div>
         </div>
     </header>
-
+    
 
 
     <main>
 
 
+        <!-- SIDEBAR -->
+
+        <div class="sidebar d-flex flex-column justify-content-between">   <!-- barra laterale di navigazione -->
+
+            <div class="top_sidebar">   <!-- parte alta -->
+                <div class="row d-flex mt-3 ps-4">
+                   <div class="col-1"><i class="fa-solid fa-house" style="color: #ffffff;"></i></div>
+                   <div class="col-1 text_white d-none d-md-block">Home</div>
+                </div>
+                <div class="row d-flex mt-3 ps-4">
+                   <div class="col-1"><i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i></div>
+                   <div class="col-1 text_white d-none d-md-block">Stats</div>
+                </div>
+                <div class="row d-flex mt-3 ps-4">
+                    <div class="col-1"><i class="fa-solid fa-signal" style="color: #ffffff;"></i></div>
+                    <div class="col-1 text_white d-none d-md-block">Signals</div>
+                </div>
+            
+            </div>
+
+            <div class="bottom_sidebar">   <!-- parte bassa -->
+                <div class="row d-flex px-4 mb-4 ps-4">
+                    <div class="col-1"><i class="fa-solid fa-gear" style="color: #ffffff;"></i></div>
+                    <div class="col-1 text_white d-none d-md-block">Admin</div>
+                </div>
+
+            </div>
 
 
-        <div class="sidebar">   <!-- barra laterale di navigazione -->
-
-        </div>      
+        </div>   
+           
 
 
 
 
         <div class="content">      <!-- tutto il contenuto principale della pagina -->
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, invent
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, invent
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, invent
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, inventore aperiam! Numquam, illum porro earum minima magnam iste veritatis debitis, totam officiis eos nostrum qui reiciendis quam deleniti suscipit? Voluptates.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus repudiandae ipsa error facilis. Vel ut, odio eligendi, amet consequuntur distinctio doloremque obcaecati fuga nobis rerum, et reprehenderit maxime impedit?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, invent
+            
         </div>       
 
 
