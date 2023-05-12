@@ -88,7 +88,6 @@ CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-CONTENT
 
 
 .content{
-    background-color: rgb(85, 61, 32);
     width: 100%;
     height: calc(100vh - 100px); 
     overflow-y: auto;
@@ -127,4 +126,67 @@ li{
 
 .text_strong{
     font-weight: 800;
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++
+TABELLA-TABELLA-TABELLA-TABELLA-TABELLA-TABELLA-
+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.avatar_img{
+    width: 20px
+}
+
+.classe{  /* modifico le classi x dopo l'immagine*/
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.riquadro{    /* riquadro alle 2 icone azioni*/
+    border: 1px solid grey;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.testo_head{    /* modifico il testo di tabella head*/
+    font-size: 12px;
+}
+
+.testo_nero{   /* modifico il testo del titolo*/
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.testo_color_grey{
+    color: grey;
+}
+
+.riquadro_done_green{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+.riquadro_done_yellow{
+    color: white;
+    background-color: rgb(192, 150, 14);
+    border-radius: 5px;
+}
+.riquadro_done_red{
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+
+
+.text_align_center{
+    text-align: center;
+}
+
+.width_100{
+    width: 100%;
 }
