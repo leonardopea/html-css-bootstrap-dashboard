@@ -55,6 +55,7 @@ main{
     margin-top: 100px;
     width: 100%;
     display: flex;
+    background-color: #F8F9FA;
 }
 
 
@@ -190,3 +191,4 @@ TABELLA-TABELLA-TABELLA-TABELLA-TABELLA-TABELLA-
 .width_100{
     width: 100%;
 }
+
